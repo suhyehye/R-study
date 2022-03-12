@@ -18,5 +18,6 @@ sample<-strata(data=iris,c("Species"), size=c(25,10,10), method = 'srswor')
 head(sample)
 iris_sample <- getdata(iris,sample)
 
+#데이터 확인
 head(iris_sample)
 table(iris_sample$Species)
